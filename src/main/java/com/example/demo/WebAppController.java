@@ -11,6 +11,6 @@ public class WebAppController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "<h1 style=\"color: hotpink; font-size: 40px; font: cursive;\">Hello, Pravallika ...You have completed third project </h1>";
+		return "<h1 style=\"color: hotpink; font-size: 40px; font: cursive;\">Hello, Pravallika ...You have completed third project and triggered webhook</h1>";
 	} 
 }
